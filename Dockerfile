@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 MAINTAINER Cornelius Kölbel <cornelius@privacyidea.org>
 RUN apt-get update
 RUN apt-get install -y software-properties-common
